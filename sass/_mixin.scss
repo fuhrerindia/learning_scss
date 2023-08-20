@@ -1,0 +1,6 @@
+@mixin flex($alignment){
+    display: flex;
+    justify-content: $alignment;
+    align-items: center;
+    text-transform: uppercase;
+}
